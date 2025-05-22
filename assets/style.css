@@ -1,0 +1,85 @@
+/* Reset mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #fdfbfb, #ebedee);
+    color: #333;
+    padding: 30px 10px;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  header h1 {
+    color: #e91e63;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    color: #666;
+    font-size: 1.2rem;
+  }
+  
+  /* Phần giới thiệu */
+  .about {
+    max-width: 800px;
+    margin: 0 auto 50px;
+    background: #fff;
+    padding: 20px 25px;
+    border-left: 6px solid #e91e63;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .about h2 {
+    color: #e91e63;
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+  }
+  
+  /* Hình ảnh */
+  .title {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .image-box {
+    width: 90%;
+    max-width: 600px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .image-box:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+  }
+  
+  .image-box img {
+    width: 118%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+  
